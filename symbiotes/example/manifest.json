@@ -1,0 +1,45 @@
+{
+    
+    "CONTACT":{
+        "TELEGRAM":"@Something",
+        "MAIL":"user@email.com",
+        "SITE":"klyntar66kjwhyirucco6sjgyp2f7lfznelzgpjcp6oha2olzb4rlead.onion"
+    },
+
+    "HIVEMIND":[
+        "RqtrnrLAdxpUkjqKS42RKbgN1ryXad3NeJrPTBZpdyVL",
+        "NTma18DvP6VhoWJ427urWCJhNYq2zsr17dzF7mZrEgPr",
+        "G1axah5Ciidjo7HuHHvXJPzq3mpNHr3QRiQgiUrVYZ5P"
+    ],
+            
+    "HOSTCHAINS":{
+    
+        "kly-evm":{
+            "PACK":"dev0",
+            "MANIFEST_OPTIONS":{
+                "CONTRACT":"0x77D4e0dc185409B9f20f58127146692A81272799"
+            }
+            
+        }
+           
+    },
+
+    "WORKFLOW":"dev_tachyon",
+    "WORKFLOW_HASH":"f04cdf7ce9dc801cc1924298328cb7f549cebea97c12fc0f0fef6a35d12905ea",
+    "WORKFLOW_OPTIONS":{
+        
+        "VALIDATOR_STAKE":50000,
+        "REWARD_PERCENTAGE_FOR_BLOCK_CREATOR":0.5,
+        "MINIMAL_STAKE_PER_ENTITY":20,
+        "POOL_AFK_MAX_TIME":10,
+        "UNSTAKING_PERIOD":4,
+        "QUORUM_SIZE":127,
+        "SUBCHAIN_AFK_LIMIT":120000,
+        "EVENTS_LIMIT_PER_BLOCK":30000,
+        "CHECKPOINT_SPEC_OPS_LIMIT":1000,
+        "DEFAULT_PAYMENT_IF_WRONG_TYPE":5
+    
+    },
+    
+    "GENESIS_HASH":"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+}
